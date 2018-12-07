@@ -55,6 +55,12 @@ public class PruebasUnitarias {
 		
 	}
 	
+	@Test
+	public void testStream()
+	{
+		ArrayList<Persona> lista= new ArrayList<Persona>();		
+		lista.add(new Persona("Felipe","Maldonado",1010,"453245","Calle 151 a"));
 		
+	}
 
 }
